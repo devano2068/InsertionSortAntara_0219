@@ -1,18 +1,10 @@
+#include <iostream>
+using namespace std;
 
-    while (true)
-    {
-        cout << "Masukkan Jumlah Data Pada Array : "; // membuat inputan jumlah element array
-        cin >> n;                                     // memanggil variabel n untuk menerima input
+int arr[20]; // membuat array dengan panjang data 20
+int n;       // membuat variabel n untuk input panjang array
 
-        if (n <= 20) // membuat kondisi n kurang dari atau sama dengan 20
-        {
-            break;
-        }
-        else
-        {
-            cout << "\nPanjang Data Maksimal 20" << endl; // menampilkan kondisi jika panjang data lebih dari 20
-        }
-    }
+
 
     cout << endl;
     cout << "=========================" << endl; // membuat jarak per baris program
