@@ -1,11 +1,4 @@
-#include <iostream>
-using namespace std;
 
-int arr[20]; // membuat array dengan panjang data 20
-int n;       // membuat variabel n untuk input panjang array
-
-void input() // membuat prosedur input
-{
     while (true)
     {
         cout << "Masukkan Jumlah Data Pada Array : "; // membuat inputan jumlah element array
