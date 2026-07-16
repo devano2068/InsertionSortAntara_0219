@@ -1,9 +1,4 @@
-#include <iostream>
-#include <cstdlib>
-using namespace std;
 
-int n;      // Menyimpan jumlah elemen aktif yang diinputkan
-int arr[20]; // Array statis langsung dipesan dengan kapasitas maksimal 20 elemen
 
 void inputData(int arr[], int &r)
 {
